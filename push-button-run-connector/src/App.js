@@ -32,7 +32,7 @@ const App = () => {
       <button
         className="hover:bg-sky-400 transition-all px-3 py-2 rounded bg-sky-300 text-white text-lg font-extrabold flex items-center justify-center gap-x-3"
         onClick={startFunction}>
-        Refresh-01 <ArrowPathIcon className={classNames(isLoading ? "animate-spin" : "", "h-5 w-5 stroke-2")} />
+        Refresh <ArrowPathIcon className={classNames(isLoading ? "animate-spin" : "", "h-5 w-5 stroke-2")} />
       </button>
     </div>
   );
