@@ -1,0 +1,31 @@
+{
+  "name": "Push Button, Run Connector",
+  "version": "0.0.1",
+  "size": {
+    "width": 1,
+    "height": 1
+  },
+  "mapping": [
+    {
+      "alias": "datasetToUpdate",
+      "dataSetId": "dc609d37-4857-47ec-af72-c3fefd2bf990",
+      "fields": []
+    }
+  ],
+  "packageMapping": [
+    {
+      "packageId": "b5357271-1b72-4dba-8296-7b9cf51a5e63",
+      "alias": "runDataset",
+      "parameters": [
+        {
+          "alias": "datasetId",
+          "type": "dataset",
+          "nullable": false,
+          "isList": false,
+          "children": null
+        }
+      ]
+    }
+  ],
+  "id": "cbf12830-f499-49a0-ac68-2481c26709c5"
+}
