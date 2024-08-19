@@ -16,22 +16,19 @@ const codeengine = require('codeengine')
 async function updateAppStudioEmbedData(
   pageId,
   dataExport = true,
-  options = {}
 ) {
-  // Check if options is an empty array and reset it to the default options if so
-  if (Array.isArray(options) && options.length === 0) {
-    options = {
-      dataMaximization: true,
-      filterBarOpen: false,
-      filters: false,
-      interactions: true,
-      openLinksInNewTab: true,
-      persistFilters: false,
-      publicLink: "PRIVATE",
-      scheduledReport: false, 
-      title: true,
-    };
-  }
+  
+  let options = {
+    dataMaximization: true,
+    filterBarOpen: false,
+    filters: false,
+    interactions: true,
+    openLinksInNewTab: true,
+    persistFilters: false,
+    publicLink: "PRIVATE",
+    scheduledReport: false, 
+    title: true,
+  };
 
   const url = `/api/content/v1/pages/embed/${pageId}/state`;
 
@@ -47,10 +44,6 @@ async function updateAppStudioEmbedData(
       body,
     );
 
-    return {
-      ...rest,
-      embedId: gatewayToken,
-    };
   } catch (error) {
     throw error;
   }
