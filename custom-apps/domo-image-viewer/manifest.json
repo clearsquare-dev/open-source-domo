@@ -1,0 +1,20 @@
+{
+  "name": "Domo Image - VIEWER",
+  "version": "0.0.1",
+  "size": {
+    "width": 4,
+    "height": 4
+  },
+  "mapping": [
+    {
+      "dataSetId": "489bd577-7e53-4bf7-a65c-a09bf5f6d93f",
+      "alias": "imagesDataset",
+      "fields": []
+    },
+    {
+      "dataSetId": "8665ba28-729f-4749-afcb-933eeab2da40",
+      "alias": "imageSettings",
+      "fields": []
+    }
+  ]
+}
