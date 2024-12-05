@@ -1,0 +1,27 @@
+{
+  "name": "Domo Native - Image Storage",
+  "version": "0.0.1",
+  "size": {
+    "width": 4,
+    "height": 2
+  },
+  "mapping": [
+    {
+      "dataSetId": "5d29604a-16b8-453c-830d-0eb91930e965",
+      "alias": "filesUploadsDataset",
+      "fields": []
+    },
+    {
+      "dataSetId": "489bd577-7e53-4bf7-a65c-a09bf5f6d93f",
+      "alias": "imagesDataset",
+      "fields": []
+    },
+    {
+      "dataSetId": "8665ba28-729f-4749-afcb-933eeab2da40",
+      "alias": "imageSettings",
+      "fields": []
+    }
+  ],
+  "id": "539d25f2-e7a8-4514-95e1-791a8f14268e",
+  "proxyId": "8151e62c-9df2-437e-baa1-241c8ffb6331"
+}

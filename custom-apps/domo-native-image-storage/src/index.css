@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.updated-dark .react-tweet-theme {
+  --tweet-body-font-size: 3rem;
+}
+
+.invisible-scrollbar::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Edge */
+}
+
+.invisible-scrollbar {
+  -ms-overflow-style: none; /* for Internet Explorer and Edge */
+  scrollbar-width: none; /* for Firefox */
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+body,
+html {
+  width: 100%;
+  line-height: 18px;
+  margin: 0 auto !important;
+  padding: 0 !important;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  -webkit-font-smoothing: subpixel-antialiased;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+  font-size: 14px;
+  position: relative;
+  z-index: 0;
+  overflow-x: hidden;
+}
+
+body {
+  scrollbar-gutter: stable;
+}
